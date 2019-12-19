@@ -3,7 +3,8 @@ CLI code for the TLE Converter at https://tleconverter.com.
 
 Dependencies:
    1. pyephem
-   2. urllib.request
+   2. print_function
+   3. re
 
 Run: 
    1. open terminal
