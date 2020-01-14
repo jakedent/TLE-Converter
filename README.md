@@ -1,5 +1,5 @@
 # TLE-Converter
-CLI code for the TLE Converter (Flask) at https://tleconverter.com.
+Code for the TLE Converter (Flask) at https://tleconverter.com.
 
 Dependencies:
    1. pyephem
