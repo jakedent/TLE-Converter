@@ -6,9 +6,9 @@ import ephem
 
 def type_tle():
     global tle_rec
-    type_name = "name"
-    type_line1 = input("Enter Line 1 of TLE")
-    type_line2 = input("Enter Line 2 of TLE")
+    type_name = input("Name of TLE set (e.g ISS): ")
+    type_line1 = input("Line 1: ")
+    type_line2 = input("Line 2: ")
     try:
         tle_rec = ephem.readtle(type_name, type_line1, type_line2)
         tle_rec.compute()
