@@ -7,9 +7,10 @@ Dependencies:
 
 Run: 
    1. open terminal
-   2. clone this repo | cd TLE-Converter
-   3. pip install -r requirements.txt
-   4. python3 tle-converter.py
+   2. clone this repo 
+   3. cd to TLE-Converter
+   4. pip install -r requirements.txt
+   5. python3 tle-converter.py
 
 # Usage : 
 Built for tracking things in earths orbit. 
