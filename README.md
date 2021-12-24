@@ -1,5 +1,4 @@
 # TLE-Converter
-Code for the TLE Converter (Flask) at https://tleconverter.com.
 
 Dependencies:
    1. pyephem
@@ -11,10 +10,6 @@ Run:
    2. clone this repo | cd TLE-Converter
    3. pip install -r requirements.txt
    4. python3 tle-converter.py
-
-# TLE Converter Website :
-Built with Flask.
-https://tleconverter.com.
 
 # Usage : 
 Built for tracking things in earths orbit. 
