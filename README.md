@@ -1,4 +1,4 @@
-# TLE-Converter
+# Two Line Element Set Converter
 
 Dependencies:
    1. pyephem
