@@ -11,8 +11,7 @@ def type_tle():
     try:
         tle_rec = ephem.readtle(type_name, type_line1, type_line2)
         tle_rec.compute()
-        print("Converting to Longitude: ", tle_rec.sublong)
-        print("Converting to Latitude: ", tle_rec.sublat)
+        print(" Converting to Longitude: ", tle_rec.sublong, "\n", "Converting to Latitude: ", tle_rec.sublat)
         plot_lat_lon(tle_rec)
     except Exception as error:
         print("Unable to convert TLE {0}".format(error))
