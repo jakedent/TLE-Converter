@@ -5,7 +5,6 @@ import ephem
 
 
 def type_tle():
-    global tle_rec
     type_name = input("Name of TLE set (e.g ISS): ")
     type_line1 = input("Line 1: ")
     type_line2 = input("Line 2: ")
@@ -14,12 +13,12 @@ def type_tle():
         tle_rec.compute()
         print("Converting to Longitude: ", tle_rec.sublong)
         print("Converting to Latitude: ", tle_rec.sublat)
+        plot_lat_lon(tle_rec)
     except Exception as error:
         print("Unable to convert TLE {0}".format(error))
 
 
-def plot_lat_lon():
-    type_tle()
+def plot_lat_lon(tle_rec):
     try:
         lat = str(tle_rec.sublat) + '"E'
     except NameError as line_1_fail:
@@ -38,4 +37,4 @@ def plot_lat_lon():
 
 
 if __name__ == '__main__':
-    plot_lat_lon()
+    type_tle()
